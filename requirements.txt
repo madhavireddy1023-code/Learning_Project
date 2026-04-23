@@ -1,0 +1,73 @@
+# ================================
+# Core Data Science Libraries
+# ================================
+
+numpy              # numerical operations (arrays, math)
+pandas             # data manipulation (dataframes, CSV handling)
+
+# ================================
+# Visualization
+# ================================
+
+matplotlib         # basic plotting (graphs, charts)
+seaborn            # advanced statistical visualization
+
+# ================================
+# Machine Learning
+# ================================
+
+scikit-learn       # ML algorithms (regression, classification, preprocessing)
+
+# ================================
+# Notebook (for learning & experiments)
+# ================================
+
+jupyter            # run notebooks for EDA and experiments
+
+# ================================
+# Deep Learning (optional - choose one)
+# ================================
+
+tensorflow         # deep learning framework (easy for beginners)
+# torch            # alternative: PyTorch (more flexible, used in research)
+
+# ================================
+# API (to make your model usable in real apps)
+# ================================
+
+fastapi            # build APIs for ML models
+uvicorn            # ASGI server to run FastAPI
+
+#================================
+# Command needs to be run in terminal to install all dependencies
+# pip install -r requirements.txt
+# Or We can also install directly using pip install for each library, e.g.:
+# pip install numpy pandas matplotlib seaborn scikit-learn jupyter tensorflow fastapi uvicorn
+#================================
+
+#===============================
+# Specifying versions ensures that everyone working on the project uses the same library versions,
+# This helps avoid compatibility issues when sharing your project or deploying it.
+# To ensure compatibility and reproducibility.
+
+#================================
+# Note: You can add specific versions if needed in production deployments, 
+# e.g. numpy==1.21.0
+# e.g. pandas==1.3.0
+# e.g. scikit-learn==0.24.2
+# e.g. matplotlib==3.4.2
+# e.g. seaborn==0.11.1
+# e.g. jupyter==1.0.0
+# e.g. tensorflow==2.5.0
+# e.g. fastapi==0.68.0
+# e.g. uvicorn==0.15.0
+
+# To generate this file with exact versions of currently installed packages, you can run:
+# pip freeze > requirements.txt
+
+# Command to install specific versions:
+# pip install numpy==1.21.0 pandas==1.3.0 scikit-learn==0.24.2 
+# matplotlib==3.4.2 seaborn==0.11.1 jupyter==1.0.0 tensorflow==2.5.0 
+# fastapi==0.68.0 uvicorn==0.15.0
+
+
